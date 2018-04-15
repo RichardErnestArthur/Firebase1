@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-       // Obtain the FirebaseAnalytics ins tance.
+       // Obtain thcce FirebaseAnalytics ins tance.
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         if(FirebaseAuth.getInstance().getCurrentUser() == null) {
